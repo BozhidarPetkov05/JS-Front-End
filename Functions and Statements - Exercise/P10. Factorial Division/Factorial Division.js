@@ -3,7 +3,7 @@ function solve(num1, num2) {
     console.log(result.toFixed(2));
     
     function calculateFactorial(num) {
-        if (num == 1) {
+        if (num <= 1) {
             return 1;
         }
         return num * calculateFactorial(num - 1);
