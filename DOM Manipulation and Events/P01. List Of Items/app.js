@@ -6,5 +6,5 @@ function addItem() {
     newElement.textContent = textElement.value; 
     tableElement.appendChild(newElement);
 
-    
+    textElement.value = '';
 }
